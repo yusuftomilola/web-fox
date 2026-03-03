@@ -21,16 +21,6 @@ const Register = () => {
 
   return (
       <div 
-      // style={{
-      //   minHeight: "100vh",
-      //   maxWidth: "100%",
-      //   background: "linear-gradient(135deg, #dbeafe 0%, #e0f2fe 50%, #f0f9ff 100%)",
-      //   display: "flex",
-      //   alignItems: "center",
-      //   justifyContent: "center",
-      //   padding: "24px 16px",
-      //   // fontFamily: "'Outfit', sans-serif",
-      // }}
       className="min-h-screen w-154 sm:w-auto bg-linear-to-br from-blue-100 via-sky-100 to-blue-50 flex items-center justify-center p-4 sm:p-6"
       >
         <div style={{
