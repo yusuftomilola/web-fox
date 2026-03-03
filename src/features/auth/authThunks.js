@@ -60,7 +60,7 @@ export const verifyEmail = createAsyncThunk(
 
 export const forgotPassword = createAsyncThunk(
     'auth/forgotPassword',
-    async (email, { rejectWithValue }) => {
+    async (email) => {
         try {
             const response = await api.post('/auth/forgot-password', { email });
             toastSuccess('If this email is registered, a reset link has been sent');
