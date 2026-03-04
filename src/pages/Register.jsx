@@ -41,6 +41,7 @@ const Register = () => {
         navigate('/login');
       } catch (err) {
         // toast already shown by thunk
+        console.log(err)
       }
     },
     [dispatch, navigate]
